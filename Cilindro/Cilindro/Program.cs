@@ -10,10 +10,10 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
-            const float pi = 3.1415926f;
-            float raio = 0f, altura = 0f;
+            
+            Double raio = 0, altura = 0;
             string r, a;
-            float V = 0f, S = 0f;
+            double V = 0, S = 0;
             Console.WriteLine(" ------------------------------------------------");
             Console.WriteLine("|\tCálculos de area e volume do cilíndro\t|");
             Console.WriteLine(" ------------------------------------------------");
@@ -21,13 +21,14 @@ namespace Cilindro
 
             Console.Write(" Insira o valor do raio:  ");
             r= Console.ReadLine();
-            raio = Convert.ToSingle(r);
+            raio = Convert.ToDouble(r);
+
             Console.Write("\n\nInsira o valor da altura:  ");
             a= Console.ReadLine();
-            altura = Convert.ToSingle(a);
+            altura = Convert.ToDouble(a);
 
-            V = pi * ((raio*raio)*altura);
-            S = (2 * pi * raio )* (raio + altura);
+            V =  (Math.PI) * ((raio*raio)*altura);
+            S = (2 * (Math.PI) * raio )* (raio + altura);
             Console.Clear();
 
             Console.WriteLine(" ------------------------------------------------");

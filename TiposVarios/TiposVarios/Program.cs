@@ -19,7 +19,7 @@ namespace TiposVarios
             Console.WriteLine(format :" {0} ||| {1}  ||| {2} \n", arg0: a, arg1: b, arg2: c);
 
 
-
+           
         }
     }
 }
