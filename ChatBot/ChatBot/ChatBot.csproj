@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E1F4BEC-0571-4943-AE26-7BF907292536}</ProjectGuid>
+    <ProjectGuid>{FC3996EC-A9C7-42BC-898F-9B0C9C3D6D90}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TiposVarios</RootNamespace>
-    <AssemblyName>TiposVarios</AssemblyName>
+    <RootNamespace>ChatBot</RootNamespace>
+    <AssemblyName>ChatBot</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
